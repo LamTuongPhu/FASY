@@ -1,0 +1,101 @@
+
+body{
+    background-color: rgb(145, 149, 149);
+}
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 55px ;
+    font-family: sans-serif;
+    font-style: italic;
+}
+h2{
+    font-size: 15px ;
+    text-align: center;
+}
+h3{
+    font-size: 35px ;
+    text-align: center;
+    background-color: dimgrey;
+    padding: 40px;
+}
+h4{
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h5{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+  
+}
+/* CSS cho container chứa các box lớn */
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Đảm bảo khoảng cách giữa các box lớn */
+}
+
+/* CSS cho box lớn */
+.large-box {
+    width: calc(30% - 10px); /* 3 box lớn xếp thành hàng ngang với khoảng cách */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: darkgrey;
+}
+
+/* CSS cho hình ảnh trong box lớn */
+.large-box img {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS cho box nhỏ */
+.small-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0;
+}
+
+/* CSS cho hình ảnh trong box nhỏ */
+.small-box img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* CSS cho liên kết trong box nhỏ */
+.small-box a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 46px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}

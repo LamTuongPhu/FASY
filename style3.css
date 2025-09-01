@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(145, 149, 149);
+}
+h1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+#success-message {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#success-message p {
+    margin: 0;
+}
